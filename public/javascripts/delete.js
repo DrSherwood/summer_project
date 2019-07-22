@@ -23,8 +23,6 @@ function showRoutes() {
       //console.log(this.features[0].geometry.coordinates[3]);
       tableContent += '<tr>';
       tableContent += '<td>' + index + '</td>';
-      tableContent += '<td>' + this.creator + '</td>';
-      tableContent += '<td>' + this.type + '</td>';
       tableContent += '<td>' + this.name + '</td>';
       tableContent += '<td>' + this.routeType + '</td>';
       tableContent += '<td>' + this.username + '</td>';

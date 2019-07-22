@@ -82,8 +82,6 @@ function createRouteButton() {
 
   var newRoute = document.getElementById("GeoJson").value;
   var addAttr = JSON.parse(newRoute);
-  addAttr.creator = document.getElementById("routeCreator").value;
-  addAttr.type = document.getElementById("routeType").value;
   addAttr.name = document.getElementById("routeName").value;
   addAttr.routeType = document.querySelector('input[name="routeType"]:checked').value;
   addAttr.username = document.getElementById("routeUsername").value;
